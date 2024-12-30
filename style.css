@@ -1,0 +1,103 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+  header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    background-image: url('mouth-7684262_640.webp'); /* Replace with your desired background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Attractive Button Styling */
+  .attractive-button {
+    font-family: 'Poppins', sans-serif;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient background */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(255, 123, 95, 0.4);
+    transition: all 0.4s ease;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .attractive-button:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f); /* Reverse gradient on hover */
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(255, 123, 95, 0.6);
+  }
+  
+  .attractive-button:focus {
+    outline: none;
+    border: 2px solid #ff7e5f;
+  }
+  
+  .attractive-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 5px 12px rgba(255, 123, 95, 0.3);
+  }
+
+  
+  
+  button:hover {
+    background-color: #ff3d00;
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

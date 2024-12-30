@@ -1,0 +1,155 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a img {
+    font-size: 15px;
+    
+}
+/* Hero Section */
+.hero {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    height: 320px;
+
+    background-image: url('support-7965543_640.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border: 2px solid rgb(252, 63, 63); /* Red border to emphasize danger */
+    box-shadow: 0 0 15px rgba(250, 52, 52, 0.8); /* Glowing red shadow */
+    font-family: 'Arial', sans-serif;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.service-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+
+/* Contact Form */
+.contact {
+    padding: 40px 20px;
+    border: 3px solid #333; /* Red border to emphasize danger */
+    box-shadow: 0 0 15px #727272; /* Glowing red shadow */
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
